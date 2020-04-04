@@ -1053,7 +1053,7 @@ export default class ZWallet extends React.Component {
         showSettings: false,
         showWalletGen: false,
         compressPubKey: true,
-        insightAPI: 'http://206.189.47.16:3001/insight-api/',
+        insightAPI: 'http://206.189.47.16:3001/api/',
         explorerURL: 'http://206.189.47.16:3001/',
         useTestNet: false,
         unlockType: UNLOCK_WALLET_TYPE.HD_WALLET
@@ -1191,7 +1191,7 @@ export default class ZWallet extends React.Component {
       _settings.explorerURL = 'https://explorer.testnet.myhush.org/'
     }
     else{
-        _settings.insightAPI = 'http://206.189.47.16:3001/insight-api/'
+        _settings.insightAPI = 'http://206.189.47.16:3001/api/'
         _settings.explorerURL = 'http://206.189.47.16:3001/'
     }
 
