@@ -7,7 +7,7 @@
   "repository": "https://github.com/MyHush/myhushwallet.git",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bip32-utils": "^0.11.1",
     "bitcoinjs-lib": "^3.0.0",
     "bitgo-utxo-lib": "git+https://github.com/zelcash/bitgo-utxo-lib.git",
