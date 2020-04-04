@@ -44,7 +44,7 @@ export default class ZFaq extends React.Component {
               <p>
                 <div style={styles.bold}>Can I have the source code?</div>
                 {" "}
-                <a href="https://github.com/vccurrency/myvccwallet">Here you go</a>
+                <a href="https://github.com/lubhub612/myvccwallet">Here you go</a>
               </p>
             <br/>
               <p>
