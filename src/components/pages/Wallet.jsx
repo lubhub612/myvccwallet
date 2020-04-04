@@ -261,7 +261,7 @@ class ZWalletUnlockKey extends React.Component {
     else if (this.props.unlockType === UNLOCK_WALLET_TYPE.HD_WALLET){
       return (
         <div>
-          <Alert color="warning"><strong>Warning.</strong>&nbsp;Make sure you have saved your secret phrase somewhere.</Alert>
+          <Alert color="warning"><strong>Warning.</strong>&nbsp;Please provide 12 words as secret pharse, Make sure you have saved your secret phrase somewhere.</Alert>
           {this.state.secretPhraseTooShort ? <Alert color="danger"><strong>Error.</strong>&nbsp;Secret phrase too short</Alert> : '' }
           <InputGroup>                                       
             <InputGroupAddon>
@@ -273,7 +273,7 @@ class ZWalletUnlockKey extends React.Component {
               type={this.state.showPassword ? "text" : "password"}
               maxLength="64"
               onChange={(e) => this.setState({secretPhrase: e.target.value})}
-              placeholder="Secret phrase. e.g. vcoin amateur washington heros paris money bag time grey"
+              placeholder="Secret phrase. e.g. vcoin amateur washington heros paris money bag time grey watch rain ice"
             />                        
           </InputGroup>
           <div style={{paddingTop: '8px'}}>
