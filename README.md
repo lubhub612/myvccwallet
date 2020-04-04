@@ -1,6 +1,6 @@
 # myvccwallet
 
-MyVccWallet is a client-side browser-based wallet for Hush.
+MyVccWallet is a client-side browser-based wallet for Vcoin.
 
 This project is a port of MyZenWallet https://github.com/ZencashOfficial/myzenwallet which was inspired by MyEtherWallet.
 
